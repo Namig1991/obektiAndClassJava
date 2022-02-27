@@ -3,8 +3,8 @@ package ru.skypro;
 import java.util.Objects;
 
 public class Book {
-    private String bookName;
-    private Author author;
+    private final String bookName;
+    private final Author author;
     private int yearPublishBook;
 
     public Book (String bookName, Author author, int yearPublishBook) {
