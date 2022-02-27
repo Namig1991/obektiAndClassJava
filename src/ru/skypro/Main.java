@@ -13,5 +13,11 @@ public class Main {
         System.out.println("Authors");
         Author authorNum1 = new Author("Lev", "Tolstoy");
         Author authorNum2 = new Author("Aleksandr", "Bloc");
+        System.out.println();
+
+        System.out.println(bookNum1);
+        System.out.println(bookNum2);
+        System.out.println(authorNum1);
+        System.out.println(authorNum2);
     }
 }
